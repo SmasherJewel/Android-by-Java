@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SampleProfile</string>
+    <string name="profile">Profile</string>
+    <string name="follow_me_on">Follow me on:</string>
+    <string name="profile_picture">profile picture</string>
+    <string name="linked_in">Linked in</string>
+    <string name="instagram">Instagram</string>
+    <string name="twitter">twitter</string>
+</resources>

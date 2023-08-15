@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CHP_1 Practice_Set</string>
+    <string name="enter_number_for_addition">Enter Number for Addition</string>
+    <string name="submit">Submit</string>
+    <string name="number2">number2</string>
+    <string name="number1">number1</string>
+</resources>

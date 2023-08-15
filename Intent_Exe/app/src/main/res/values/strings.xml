@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Intent_Exe</string>
+    <string name="submit">Submit</string>
+    <string name="user_id">user id</string>
+    <string name="password">password</string>
+    <string name="sucesfully_login">Sucesfully Login</string>
+</resources>

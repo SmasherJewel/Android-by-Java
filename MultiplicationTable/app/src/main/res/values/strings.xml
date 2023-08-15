@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MultiplicationTable</string>
+    <string name="enter_numbet_to_print_multiplication_table_of_a_number">Enter Numbet to Print Multiplication Table of a Number</string>
+    <string name="submit">Submit</string>
+    <string name="enter_number">enter number</string>
+</resources>

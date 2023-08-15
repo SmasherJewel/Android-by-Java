@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="268dp"
+        android:layout_height="322dp"
+        android:contentDescription="@string/profile_picture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/followText"
+        android:layout_width="197dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/follow_me_on"
+        android:textColor="#757575"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/linkedIn"
+        android:layout_width="173dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/linked_in"
+        android:textColor="#616161"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.596"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/followText"
+        app:layout_constraintVertical_bias="0.003"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/instagram"
+        android:layout_width="175dp"
+        android:layout_height="53dp"
+        android:background="#616161"
+        android:text="@string/instagram"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linkedIn"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <ImageView
+        android:id="@+id/twitter"
+        android:layout_width="113dp"
+        android:layout_height="99dp"
+        android:contentDescription="@string/twitter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/instagram"
+        app:srcCompat="@drawable/twitter"
+        tools:ignore="ImageContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
